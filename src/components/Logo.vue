@@ -11,6 +11,6 @@ export default {
 
 <style>
 img {
-  width: 25%;
+  width: 10%;
 }
 </style>

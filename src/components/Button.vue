@@ -34,9 +34,12 @@ export default {
 }
 
 .button{
+    height: 2rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     margin: 6px;
-    padding: 2px 10px; /* top-bottom, left-right */
+    padding: 4px 20px; /* top-bottom, left-right */
+    
 }
 
 .purple{

@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <h2>Practice Components</h2>
+    <h2>Vue Search Engine</h2>
+    <Logo/>
     <NavBar/>
     <Input placeholder="Search"/>
-    <Logo/>
-    <Button className="button purple" text="Donate!"></Button>
+    <br/>
+    <Button className="button red" text="Feeling Lucky?"></Button>
+    <Button className="button purple" text="Search"></Button>
   </div>
 </template>
 
