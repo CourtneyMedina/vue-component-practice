@@ -39,5 +39,9 @@ export default {
     padding: 2px 10px; /* top-bottom, left-right */
 }
 
+.purple{
+    background-color: rgb(149, 20, 255);
+    color: white;
+}
 
 </style>

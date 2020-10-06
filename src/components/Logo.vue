@@ -1,5 +1,6 @@
 <template>
   <img src="../assets/logo.png">
+  <br/><br/>
 </template>
 
 <script>

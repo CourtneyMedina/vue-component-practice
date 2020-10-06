@@ -1,28 +1,25 @@
 <template>
   <div class="container">
     <h2>Practice Components</h2>
-    <br/>
-    <Logo/>
-    <br/><br/>
-    <Button text="Home" type="button" className="button red"></Button>
-    <Button text="Profile" type="button" className="button blue"></Button>
-    <Button text="Subscriptions" type="button" className="button green"></Button>
-    <Button text="Login" type="button" className="button yellow" disabled="true"></Button>
-    <br/><br/>
+    <NavBar/>
     <Input placeholder="Search"/>
+    <Logo/>
+    <Button className="button purple" text="Donate!"></Button>
   </div>
 </template>
 
 <script>
 import Logo from "./components/Logo.vue"
-import Button from "./components/Button.vue"
+import NavBar from "./components/NavBar.vue"
 import Input from "./components/Input.vue"
+import Button from "./components/Button.vue"
 
 export default {
   components: {
-    Button,
     Logo,
     Input,
+    NavBar,
+    Button,
   }
   
 }
